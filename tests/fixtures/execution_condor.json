@@ -1,0 +1,104 @@
+{
+  "__meta__": {
+    "description": "TEST/VALIDATION DATA — NOT MARKET DATA — NOT PERFORMANCE DATA",
+    "purpose": "Plumbing and execution lifecycle validation harness",
+    "symbol": "SPY",
+    "expiration": "2026-09-18"
+  },
+  "underlying_symbol": "SPY",
+  "expiration_date": "2026-09-18",
+  "wing_width": 5.0,
+  "net_credit": 2.30,
+  "max_risk": 270.0,
+  "max_profit": 230.0,
+  "lower_breakeven": 542.70,
+  "upper_breakeven": 562.30,
+  "put_long": {
+    "side": "buy",
+    "quantity": 1,
+    "leg_type": "put_long",
+    "contract": {
+      "symbol": "SPY260918P00540000",
+      "underlying_symbol": "SPY",
+      "strike_price": 540.0,
+      "expiration_date": "2026-09-18",
+      "contract_type": "put",
+      "bid": 1.20,
+      "ask": 1.25,
+      "last_price": 1.22,
+      "volume": 250,
+      "open_interest": 600,
+      "implied_volatility": 0.21,
+      "delta": -0.10,
+      "gamma": 0.02,
+      "theta": -0.04,
+      "vega": 0.08
+    }
+  },
+  "put_short": {
+    "side": "sell",
+    "quantity": 1,
+    "leg_type": "put_short",
+    "contract": {
+      "symbol": "SPY260918P00545000",
+      "underlying_symbol": "SPY",
+      "strike_price": 545.0,
+      "expiration_date": "2026-09-18",
+      "contract_type": "put",
+      "bid": 2.40,
+      "ask": 2.45,
+      "last_price": 2.42,
+      "volume": 600,
+      "open_interest": 1200,
+      "implied_volatility": 0.20,
+      "delta": -0.18,
+      "gamma": 0.03,
+      "theta": -0.06,
+      "vega": 0.12
+    }
+  },
+  "call_short": {
+    "side": "sell",
+    "quantity": 1,
+    "leg_type": "call_short",
+    "contract": {
+      "symbol": "SPY260918C00560000",
+      "underlying_symbol": "SPY",
+      "strike_price": 560.0,
+      "expiration_date": "2026-09-18",
+      "contract_type": "call",
+      "bid": 2.35,
+      "ask": 2.40,
+      "last_price": 2.38,
+      "volume": 550,
+      "open_interest": 1100,
+      "implied_volatility": 0.20,
+      "delta": 0.18,
+      "gamma": 0.03,
+      "theta": -0.06,
+      "vega": 0.12
+    }
+  },
+  "call_long": {
+    "side": "buy",
+    "quantity": 1,
+    "leg_type": "call_long",
+    "contract": {
+      "symbol": "SPY260918C00565000",
+      "underlying_symbol": "SPY",
+      "strike_price": 565.0,
+      "expiration_date": "2026-09-18",
+      "contract_type": "call",
+      "bid": 1.15,
+      "ask": 1.20,
+      "last_price": 1.18,
+      "volume": 280,
+      "open_interest": 700,
+      "implied_volatility": 0.21,
+      "delta": 0.10,
+      "gamma": 0.02,
+      "theta": -0.04,
+      "vega": 0.08
+    }
+  }
+}

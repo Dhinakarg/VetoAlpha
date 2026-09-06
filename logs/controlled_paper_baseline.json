@@ -1,0 +1,75 @@
+{
+  "snapshot_name": "Controlled Paper Strategy Policy Baseline Snapshot",
+  "timestamp_utc": "2026-08-31T20:21:30Z",
+  "environment": "PAPER_ONLY",
+  "symbols": ["SPY", "QQQ", "IWM"],
+  "strategies": {
+    "iron_condor": {
+      "regime_eligibility": ["RANGE"],
+      "iv_rank_min": 20.0,
+      "target_dte_min": 25,
+      "target_dte_max": 45,
+      "profit_target_pct": 0.50,
+      "stop_loss_pct": 1.00,
+      "risk_profile": "defined_wing_risk",
+      "credit_strategy": true
+    },
+    "bull_put_spread": {
+      "regime_eligibility": ["BULL", "STRONG_BULL", "RANGE"],
+      "iv_rank_min": 20.0,
+      "target_dte_min": 20,
+      "target_dte_max": 45,
+      "profit_target_pct": 0.50,
+      "stop_loss_pct": 1.00,
+      "risk_profile": "defined_wing_risk",
+      "credit_strategy": true
+    },
+    "bear_call_spread": {
+      "regime_eligibility": ["BEAR", "STRONG_BEAR", "RANGE"],
+      "iv_rank_min": 20.0,
+      "target_dte_min": 20,
+      "target_dte_max": 45,
+      "profit_target_pct": 0.50,
+      "stop_loss_pct": 1.00,
+      "risk_profile": "defined_wing_risk",
+      "credit_strategy": true
+    },
+    "long_call": {
+      "regime_eligibility": ["STRONG_BULL", "BULL"],
+      "iv_rank_max": 20.0,
+      "target_dte_min": 25,
+      "target_dte_max": 45,
+      "profit_target_pct": 1.00,
+      "stop_loss_pct": 0.50,
+      "risk_profile": "debit_defined_risk",
+      "credit_strategy": false
+    },
+    "long_put": {
+      "regime_eligibility": ["STRONG_BEAR"],
+      "iv_rank_max": 20.0,
+      "target_dte_min": 15,
+      "target_dte_max": 30,
+      "profit_target_pct": 0.75,
+      "stop_loss_pct": 0.35,
+      "risk_profile": "debit_defined_risk_restricted",
+      "credit_strategy": false
+    }
+  },
+  "blocked_regimes": ["REGIME_TRANSITION", "UNKNOWN"],
+  "risk_limits": {
+    "max_trade_risk_pct": 0.02,
+    "max_account_risk_pct": 0.05,
+    "max_concurrent_positions": 5,
+    "max_total_exposure_pct": 0.20,
+    "max_daily_loss_pct": 0.03,
+    "max_correlated_positions": 2,
+    "max_aggregate_delta": 150.0
+  },
+  "lifecycle_invariants": {
+    "exit_coverage_target": "100%",
+    "entry_requires_exit_plan": true,
+    "duplicate_exit_prevention": true,
+    "position_fingerprinting": true,
+    "asymmetric_entry_lockout_on_mismatch": true
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "__meta__": {
+    "description": "TEST/VALIDATION DATA ONLY - DO NOT USE IN PRODUCTION OR CLAIM REPRESENTS REAL PERFORMANCE",
+    "symbol": "SPY",
+    "days_count": 30,
+    "created_at": "2026-08-29T00:00:00Z"
+  },
+  "iv_history": [
+    {"date": "2026-07-15", "atm_iv": 0.1250, "underlying_price": 540.20},
+    {"date": "2026-07-16", "atm_iv": 0.1280, "underlying_price": 542.10},
+    {"date": "2026-07-17", "atm_iv": 0.1310, "underlying_price": 541.50},
+    {"date": "2026-07-18", "atm_iv": 0.1290, "underlying_price": 543.00},
+    {"date": "2026-07-21", "atm_iv": 0.1340, "underlying_price": 540.80},
+    {"date": "2026-07-22", "atm_iv": 0.1380, "underlying_price": 539.20},
+    {"date": "2026-07-23", "atm_iv": 0.1420, "underlying_price": 538.00},
+    {"date": "2026-07-24", "atm_iv": 0.1450, "underlying_price": 536.50},
+    {"date": "2026-07-25", "atm_iv": 0.1400, "underlying_price": 539.10},
+    {"date": "2026-07-28", "atm_iv": 0.1360, "underlying_price": 541.40},
+    {"date": "2026-07-29", "atm_iv": 0.1320, "underlying_price": 543.80},
+    {"date": "2026-07-30", "atm_iv": 0.1290, "underlying_price": 545.20},
+    {"date": "2026-07-31", "atm_iv": 0.1270, "underlying_price": 546.00},
+    {"date": "2026-08-01", "atm_iv": 0.1300, "underlying_price": 544.80},
+    {"date": "2026-08-04", "atm_iv": 0.1350, "underlying_price": 542.50},
+    {"date": "2026-08-05", "atm_iv": 0.1390, "underlying_price": 540.00},
+    {"date": "2026-08-06", "atm_iv": 0.1430, "underlying_price": 538.50},
+    {"date": "2026-08-07", "atm_iv": 0.1480, "underlying_price": 536.00},
+    {"date": "2026-08-08", "atm_iv": 0.1520, "underlying_price": 534.20},
+    {"date": "2026-08-11", "atm_iv": 0.1470, "underlying_price": 537.10},
+    {"date": "2026-08-12", "atm_iv": 0.1410, "underlying_price": 540.30},
+    {"date": "2026-08-13", "atm_iv": 0.1370, "underlying_price": 542.90},
+    {"date": "2026-08-14", "atm_iv": 0.1330, "underlying_price": 544.50},
+    {"date": "2026-08-15", "atm_iv": 0.1300, "underlying_price": 546.20},
+    {"date": "2026-08-18", "atm_iv": 0.1260, "underlying_price": 548.00},
+    {"date": "2026-08-19", "atm_iv": 0.1240, "underlying_price": 549.50},
+    {"date": "2026-08-20", "atm_iv": 0.1220, "underlying_price": 551.00},
+    {"date": "2026-08-21", "atm_iv": 0.1200, "underlying_price": 552.40},
+    {"date": "2026-08-22", "atm_iv": 0.1190, "underlying_price": 553.80},
+    {"date": "2026-08-25", "atm_iv": 0.1210, "underlying_price": 552.90}
+  ]
+}

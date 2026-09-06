@@ -1,0 +1,21 @@
+{
+  "current_cycle": 50,
+  "equity": 100000.0,
+  "cash": 100000.0,
+  "daily_pnl": 0.0,
+  "consecutive_losses": 0,
+  "circuit_breaker_tripped": false,
+  "circuit_breaker_reason": "",
+  "fingerprints_seen": [
+    "TREND_FOLLOWING_SHORT:short:BTC/USD:65408.53",
+    "TREND_FOLLOWING_SHORT:short:ETH/USD:3522.00",
+    "TREND_FOLLOWING_SHORT:short:SOL/USD:145.91"
+  ],
+  "stats": {
+    "ai_calls": 5679,
+    "ai_skipped": 0,
+    "ai_failures": 0,
+    "ai_cache_hits": 0
+  },
+  "engine": "CRYPTO_VALIDATION_ENGINE"
+}

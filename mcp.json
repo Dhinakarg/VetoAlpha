@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "alpaca": {
+      "command": "python",
+      "args": ["-m", "trading_agent.integrations.alpaca_mcp"],
+      "env": {
+        "ALPACA_API_KEY": "${ALPACA_API_KEY}",
+        "ALPACA_SECRET_KEY": "${ALPACA_SECRET_KEY}",
+        "ALPACA_PAPER": "true",
+        "MCP_DRY_RUN": "true"
+      },
+      "description": "Alpaca Model Context Protocol (MCP) server configured strictly for Paper Trading"
+    }
+  }
+}

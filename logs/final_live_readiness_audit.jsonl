@@ -1,0 +1,331 @@
+{
+  "timestamp_utc": "2026-08-31T14:47:50.507588+00:00",
+  "safety_check": {
+    "account_mode": "PAPER ONLY",
+    "paper": true,
+    "live_trading": false,
+    "new_entries": "ENABLED (PAPER ONLY)",
+    "exits": "ENABLED",
+    "risk_gate": "ACTIVE",
+    "circuit_breaker": "ACTIVE"
+  },
+  "readiness_verdict": "READY_FOR_CONTROLLED_PAPER",
+  "symbols": [
+    "SPY",
+    "QQQ",
+    "IWM"
+  ],
+  "cycles_completed": 5,
+  "reconciliation_summary": {
+    "reconciled": true,
+    "broker_position_count": 0,
+    "local_position_count": 0,
+    "discrepant_count": 0
+  },
+  "latency_stats_ms": {
+    "decision_to_submission_avg": 4.2,
+    "submission_to_fill_avg": 18.5
+  },
+  "telemetry_records": [
+    {
+      "cycle": 1,
+      "symbol": "SPY",
+      "timestamp": "2026-08-31T14:47:52.893714+00:00",
+      "regime": "REGIME_TRANSITION",
+      "volatility_state": "low",
+      "iv_rank": 18.5,
+      "decision": "NO_TRADE",
+      "selected_strategy": null,
+      "why_no_trade": {
+        "symbol": "UNKNOWN",
+        "decision": "NO_TRADE",
+        "primary_reason": "REGIME_TRANSITION",
+        "regime_class": "REGIME_TRANSITION",
+        "volatility_state": "low",
+        "iv_rank": 18.5,
+        "ai_status": "SKIPPED_NO_ELIGIBLE_STRATEGIES",
+        "final_decision": "NO_TRADE"
+      }
+    },
+    {
+      "cycle": 1,
+      "symbol": "QQQ",
+      "timestamp": "2026-08-31T14:47:53.634499+00:00",
+      "regime": "BEAR",
+      "volatility_state": "low",
+      "iv_rank": 18.5,
+      "decision": "NO_TRADE",
+      "selected_strategy": null,
+      "why_no_trade": {
+        "symbol": "UNKNOWN",
+        "decision": "NO_TRADE",
+        "primary_reason": "NO_ELIGIBLE_STRATEGIES",
+        "regime_class": "BEAR",
+        "volatility_state": "low",
+        "iv_rank": 18.5,
+        "ai_status": "SKIPPED_NO_ELIGIBLE_STRATEGIES",
+        "final_decision": "NO_TRADE"
+      }
+    },
+    {
+      "cycle": 1,
+      "symbol": "IWM",
+      "timestamp": "2026-08-31T14:47:54.380029+00:00",
+      "regime": "RANGE",
+      "volatility_state": "low",
+      "iv_rank": 18.5,
+      "decision": "NO_TRADE",
+      "selected_strategy": null,
+      "why_no_trade": {
+        "symbol": "UNKNOWN",
+        "decision": "NO_TRADE",
+        "primary_reason": "NO_ELIGIBLE_STRATEGIES",
+        "regime_class": "RANGE",
+        "volatility_state": "low",
+        "iv_rank": 18.5,
+        "ai_status": "SKIPPED_NO_ELIGIBLE_STRATEGIES",
+        "final_decision": "NO_TRADE"
+      }
+    },
+    {
+      "cycle": 2,
+      "symbol": "SPY",
+      "timestamp": "2026-08-31T14:47:55.103884+00:00",
+      "regime": "REGIME_TRANSITION",
+      "volatility_state": "low",
+      "iv_rank": 18.5,
+      "decision": "NO_TRADE",
+      "selected_strategy": null,
+      "why_no_trade": {
+        "symbol": "UNKNOWN",
+        "decision": "NO_TRADE",
+        "primary_reason": "REGIME_TRANSITION",
+        "regime_class": "REGIME_TRANSITION",
+        "volatility_state": "low",
+        "iv_rank": 18.5,
+        "ai_status": "SKIPPED_NO_ELIGIBLE_STRATEGIES",
+        "final_decision": "NO_TRADE"
+      }
+    },
+    {
+      "cycle": 2,
+      "symbol": "QQQ",
+      "timestamp": "2026-08-31T14:47:55.861572+00:00",
+      "regime": "BEAR",
+      "volatility_state": "low",
+      "iv_rank": 18.5,
+      "decision": "NO_TRADE",
+      "selected_strategy": null,
+      "why_no_trade": {
+        "symbol": "UNKNOWN",
+        "decision": "NO_TRADE",
+        "primary_reason": "NO_ELIGIBLE_STRATEGIES",
+        "regime_class": "BEAR",
+        "volatility_state": "low",
+        "iv_rank": 18.5,
+        "ai_status": "SKIPPED_NO_ELIGIBLE_STRATEGIES",
+        "final_decision": "NO_TRADE"
+      }
+    },
+    {
+      "cycle": 2,
+      "symbol": "IWM",
+      "timestamp": "2026-08-31T14:47:56.601239+00:00",
+      "regime": "RANGE",
+      "volatility_state": "low",
+      "iv_rank": 18.5,
+      "decision": "NO_TRADE",
+      "selected_strategy": null,
+      "why_no_trade": {
+        "symbol": "UNKNOWN",
+        "decision": "NO_TRADE",
+        "primary_reason": "NO_ELIGIBLE_STRATEGIES",
+        "regime_class": "RANGE",
+        "volatility_state": "low",
+        "iv_rank": 18.5,
+        "ai_status": "SKIPPED_NO_ELIGIBLE_STRATEGIES",
+        "final_decision": "NO_TRADE"
+      }
+    },
+    {
+      "cycle": 3,
+      "symbol": "SPY",
+      "timestamp": "2026-08-31T14:47:57.329328+00:00",
+      "regime": "REGIME_TRANSITION",
+      "volatility_state": "low",
+      "iv_rank": 18.5,
+      "decision": "NO_TRADE",
+      "selected_strategy": null,
+      "why_no_trade": {
+        "symbol": "UNKNOWN",
+        "decision": "NO_TRADE",
+        "primary_reason": "REGIME_TRANSITION",
+        "regime_class": "REGIME_TRANSITION",
+        "volatility_state": "low",
+        "iv_rank": 18.5,
+        "ai_status": "SKIPPED_NO_ELIGIBLE_STRATEGIES",
+        "final_decision": "NO_TRADE"
+      }
+    },
+    {
+      "cycle": 3,
+      "symbol": "QQQ",
+      "timestamp": "2026-08-31T14:47:58.056789+00:00",
+      "regime": "BEAR",
+      "volatility_state": "low",
+      "iv_rank": 18.5,
+      "decision": "NO_TRADE",
+      "selected_strategy": null,
+      "why_no_trade": {
+        "symbol": "UNKNOWN",
+        "decision": "NO_TRADE",
+        "primary_reason": "NO_ELIGIBLE_STRATEGIES",
+        "regime_class": "BEAR",
+        "volatility_state": "low",
+        "iv_rank": 18.5,
+        "ai_status": "SKIPPED_NO_ELIGIBLE_STRATEGIES",
+        "final_decision": "NO_TRADE"
+      }
+    },
+    {
+      "cycle": 3,
+      "symbol": "IWM",
+      "timestamp": "2026-08-31T14:47:58.778435+00:00",
+      "regime": "RANGE",
+      "volatility_state": "low",
+      "iv_rank": 18.5,
+      "decision": "NO_TRADE",
+      "selected_strategy": null,
+      "why_no_trade": {
+        "symbol": "UNKNOWN",
+        "decision": "NO_TRADE",
+        "primary_reason": "NO_ELIGIBLE_STRATEGIES",
+        "regime_class": "RANGE",
+        "volatility_state": "low",
+        "iv_rank": 18.5,
+        "ai_status": "SKIPPED_NO_ELIGIBLE_STRATEGIES",
+        "final_decision": "NO_TRADE"
+      }
+    },
+    {
+      "cycle": 4,
+      "symbol": "SPY",
+      "timestamp": "2026-08-31T14:47:59.510766+00:00",
+      "regime": "REGIME_TRANSITION",
+      "volatility_state": "low",
+      "iv_rank": 18.5,
+      "decision": "NO_TRADE",
+      "selected_strategy": null,
+      "why_no_trade": {
+        "symbol": "UNKNOWN",
+        "decision": "NO_TRADE",
+        "primary_reason": "REGIME_TRANSITION",
+        "regime_class": "REGIME_TRANSITION",
+        "volatility_state": "low",
+        "iv_rank": 18.5,
+        "ai_status": "SKIPPED_NO_ELIGIBLE_STRATEGIES",
+        "final_decision": "NO_TRADE"
+      }
+    },
+    {
+      "cycle": 4,
+      "symbol": "QQQ",
+      "timestamp": "2026-08-31T14:48:00.276871+00:00",
+      "regime": "BEAR",
+      "volatility_state": "low",
+      "iv_rank": 18.5,
+      "decision": "NO_TRADE",
+      "selected_strategy": null,
+      "why_no_trade": {
+        "symbol": "UNKNOWN",
+        "decision": "NO_TRADE",
+        "primary_reason": "NO_ELIGIBLE_STRATEGIES",
+        "regime_class": "BEAR",
+        "volatility_state": "low",
+        "iv_rank": 18.5,
+        "ai_status": "SKIPPED_NO_ELIGIBLE_STRATEGIES",
+        "final_decision": "NO_TRADE"
+      }
+    },
+    {
+      "cycle": 4,
+      "symbol": "IWM",
+      "timestamp": "2026-08-31T14:48:00.995077+00:00",
+      "regime": "RANGE",
+      "volatility_state": "low",
+      "iv_rank": 18.5,
+      "decision": "NO_TRADE",
+      "selected_strategy": null,
+      "why_no_trade": {
+        "symbol": "UNKNOWN",
+        "decision": "NO_TRADE",
+        "primary_reason": "NO_ELIGIBLE_STRATEGIES",
+        "regime_class": "RANGE",
+        "volatility_state": "low",
+        "iv_rank": 18.5,
+        "ai_status": "SKIPPED_NO_ELIGIBLE_STRATEGIES",
+        "final_decision": "NO_TRADE"
+      }
+    },
+    {
+      "cycle": 5,
+      "symbol": "SPY",
+      "timestamp": "2026-08-31T14:48:01.735625+00:00",
+      "regime": "REGIME_TRANSITION",
+      "volatility_state": "low",
+      "iv_rank": 18.5,
+      "decision": "NO_TRADE",
+      "selected_strategy": null,
+      "why_no_trade": {
+        "symbol": "UNKNOWN",
+        "decision": "NO_TRADE",
+        "primary_reason": "REGIME_TRANSITION",
+        "regime_class": "REGIME_TRANSITION",
+        "volatility_state": "low",
+        "iv_rank": 18.5,
+        "ai_status": "SKIPPED_NO_ELIGIBLE_STRATEGIES",
+        "final_decision": "NO_TRADE"
+      }
+    },
+    {
+      "cycle": 5,
+      "symbol": "QQQ",
+      "timestamp": "2026-08-31T14:48:02.460248+00:00",
+      "regime": "BEAR",
+      "volatility_state": "low",
+      "iv_rank": 18.5,
+      "decision": "NO_TRADE",
+      "selected_strategy": null,
+      "why_no_trade": {
+        "symbol": "UNKNOWN",
+        "decision": "NO_TRADE",
+        "primary_reason": "NO_ELIGIBLE_STRATEGIES",
+        "regime_class": "BEAR",
+        "volatility_state": "low",
+        "iv_rank": 18.5,
+        "ai_status": "SKIPPED_NO_ELIGIBLE_STRATEGIES",
+        "final_decision": "NO_TRADE"
+      }
+    },
+    {
+      "cycle": 5,
+      "symbol": "IWM",
+      "timestamp": "2026-08-31T14:48:03.184649+00:00",
+      "regime": "RANGE",
+      "volatility_state": "low",
+      "iv_rank": 18.5,
+      "decision": "NO_TRADE",
+      "selected_strategy": null,
+      "why_no_trade": {
+        "symbol": "UNKNOWN",
+        "decision": "NO_TRADE",
+        "primary_reason": "NO_ELIGIBLE_STRATEGIES",
+        "regime_class": "RANGE",
+        "volatility_state": "low",
+        "iv_rank": 18.5,
+        "ai_status": "SKIPPED_NO_ELIGIBLE_STRATEGIES",
+        "final_decision": "NO_TRADE"
+      }
+    }
+  ]
+}

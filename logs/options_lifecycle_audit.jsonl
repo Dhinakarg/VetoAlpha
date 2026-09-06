@@ -1,0 +1,96 @@
+{
+  "timestamp_utc": "2026-08-31T14:53:42.984981+00:00",
+  "safety_check": {
+    "account_mode": "PAPER ONLY",
+    "paper": true,
+    "live_trading": false,
+    "new_entries": "ENABLED (PAPER ONLY)",
+    "exits": "ENABLED",
+    "risk_gate": "ACTIVE",
+    "circuit_breaker": "ACTIVE"
+  },
+  "total_filled_entries": 1,
+  "valid_exit_plans": 1,
+  "exit_coverage_pct": "100.0%",
+  "reconciliation": {
+    "reconciled": true,
+    "broker_positions": 0,
+    "local_positions": 0,
+    "discrepancies": 0
+  },
+  "lifecycle_health": {
+    "open_positions": 0,
+    "entry_orders": 1,
+    "filled_entries": 1,
+    "exit_plans": 1,
+    "active_exits": 0,
+    "closed_positions": 1,
+    "entries_without_exit": 0,
+    "broker_local_mismatches": 0,
+    "duplicate_exit_attempts": 0,
+    "partial_mleg_events": 0,
+    "rejected_exits": 0,
+    "lifecycle_success_rate": "100.0%",
+    "exit_coverage_rate": "100.0%",
+    "reconciliation_success_rate": "100.0%"
+  },
+  "audit_records": [
+    {
+      "decision_id": "DEC_20260831_001",
+      "symbol": "SPY",
+      "strategy": "iron_condor",
+      "regime": "RANGE",
+      "entry_timestamp": "2026-08-31T14:30:00Z",
+      "entry_order_id": "ORD_ENTRY_001",
+      "entry_order_class": "mleg",
+      "mleg_legs": [
+        "P540",
+        "P545",
+        "C555",
+        "C560"
+      ],
+      "expected_leg_directions": [
+        "BUY_TO_OPEN",
+        "SELL_TO_OPEN",
+        "SELL_TO_OPEN",
+        "BUY_TO_OPEN"
+      ],
+      "actual_broker_leg_directions": [
+        "BUY_TO_OPEN",
+        "SELL_TO_OPEN",
+        "SELL_TO_OPEN",
+        "BUY_TO_OPEN"
+      ],
+      "fill_status": "filled",
+      "fill_prices": [
+        0.8,
+        2.0,
+        2.0,
+        0.8
+      ],
+      "position_quantity": 1,
+      "position_registered": true,
+      "exit_plan": {
+        "profit_target": 0.5,
+        "stop_loss": 1.0,
+        "max_holding_period": 30,
+        "max_dte": 3,
+        "signal_reversal_exit": true,
+        "regime_transition_exit": true,
+        "volatility_shock_exit": true
+      },
+      "exit_trigger": "PROFIT_TARGET_REACHED",
+      "closing_order_id": "ORD_EXIT_001",
+      "closing_mleg_legs": [
+        "P540",
+        "P545",
+        "C555",
+        "C560"
+      ],
+      "closing_fill_status": "filled",
+      "final_realized_pnl": 85.0,
+      "reconciliation_result": "MATCHED",
+      "exit_coverage_satisfied": true
+    }
+  ]
+}

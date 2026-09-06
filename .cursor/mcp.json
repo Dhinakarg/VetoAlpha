@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "alpaca-paper": {
+      "command": "python",
+      "args": ["-m", "trading_agent.integrations.alpaca_mcp"],
+      "env": {
+        "ALPACA_PAPER": "true",
+        "MCP_DRY_RUN": "true"
+      },
+      "description": "Alpaca MCP server for Cursor IDE (Paper Trading Only)"
+    }
+  }
+}

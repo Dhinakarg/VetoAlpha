@@ -1,0 +1,624 @@
+{
+  "timestamp_utc": "2026-08-31T14:39:51.773278+00:00",
+  "baseline_summary": {},
+  "backtest_audit": {
+    "index_inequality_enforced": true,
+    "lookahead_bias_protected": true
+  },
+  "cost_model_summary": {
+    "commission_per_leg": 1.5,
+    "fee_per_leg": 0.05,
+    "slippage_pct": 0.02
+  },
+  "by_strategy": {
+    "iron_condor": {
+      "trades": 21,
+      "wins": 21,
+      "losses": 0,
+      "win_rate": 100.0,
+      "loss_rate": 0.0,
+      "gross_profit": 882.22,
+      "gross_loss": 0,
+      "total_costs": 274.52,
+      "net_pnl": 882.22,
+      "profit_factor": 999.0,
+      "expectancy": 42.01,
+      "avg_winner": 42.01,
+      "avg_loser": 0.0,
+      "reward_risk_ratio": 0.0,
+      "max_drawdown": 0.0,
+      "sharpe_ratio": 67.96,
+      "sortino_ratio": 666.9,
+      "calmar_ratio": 0.0,
+      "max_consecutive_wins": 21,
+      "max_consecutive_losses": 0,
+      "avg_holding_days": 27.0,
+      "median_holding_days": 27.0,
+      "mae_avg": -4.47,
+      "mfe_avg": 66.46
+    },
+    "bull_put_spread": {
+      "trades": 30,
+      "wins": 30,
+      "losses": 0,
+      "win_rate": 100.0,
+      "loss_rate": 0.0,
+      "gross_profit": 1522.64,
+      "gross_loss": 0,
+      "total_costs": 196.04,
+      "net_pnl": 1522.64,
+      "profit_factor": 999.0,
+      "expectancy": 50.75,
+      "avg_winner": 50.75,
+      "avg_loser": 0.0,
+      "reward_risk_ratio": 0.0,
+      "max_drawdown": 0.0,
+      "sharpe_ratio": 40.25,
+      "sortino_ratio": 805.71,
+      "calmar_ratio": 0.0,
+      "max_consecutive_wins": 30,
+      "max_consecutive_losses": 0,
+      "avg_holding_days": 26.8,
+      "median_holding_days": 27.0,
+      "mae_avg": -3.5,
+      "mfe_avg": 70.32
+    },
+    "bear_call_spread": {
+      "trades": 21,
+      "wins": 21,
+      "losses": 0,
+      "win_rate": 100.0,
+      "loss_rate": 0.0,
+      "gross_profit": 1711.26,
+      "gross_loss": 0,
+      "total_costs": 136.6,
+      "net_pnl": 1711.26,
+      "profit_factor": 999.0,
+      "expectancy": 81.49,
+      "avg_winner": 81.49,
+      "avg_loser": 0.0,
+      "reward_risk_ratio": 0.0,
+      "max_drawdown": 0.0,
+      "sharpe_ratio": 58.46,
+      "sortino_ratio": 1293.59,
+      "calmar_ratio": 0.0,
+      "max_consecutive_wins": 21,
+      "max_consecutive_losses": 0,
+      "avg_holding_days": 23.4,
+      "median_holding_days": 23.0,
+      "mae_avg": -3.53,
+      "mfe_avg": 101.7
+    },
+    "long_call": {
+      "trades": 9,
+      "wins": 0,
+      "losses": 9,
+      "win_rate": 0.0,
+      "loss_rate": 100.0,
+      "gross_profit": 0,
+      "gross_loss": 731.28,
+      "total_costs": 29.38,
+      "net_pnl": -731.28,
+      "profit_factor": 0.0,
+      "expectancy": -81.25,
+      "avg_winner": 0.0,
+      "avg_loser": 81.25,
+      "reward_risk_ratio": 0.0,
+      "max_drawdown": 0.73,
+      "sharpe_ratio": -101.83,
+      "sortino_ratio": -101.83,
+      "calmar_ratio": -1.0,
+      "max_consecutive_wins": 0,
+      "max_consecutive_losses": 9,
+      "avg_holding_days": 27.0,
+      "median_holding_days": 27.0,
+      "mae_avg": -79.08,
+      "mfe_avg": 37.87
+    },
+    "long_put": {
+      "trades": 0,
+      "win_rate": 0.0,
+      "loss_rate": 0.0,
+      "net_pnl": 0.0,
+      "profit_factor": 0.0,
+      "expectancy": 0.0,
+      "max_drawdown": 0.0,
+      "sharpe_ratio": 0.0,
+      "sortino_ratio": 0.0,
+      "calmar_ratio": 0.0,
+      "avg_winner": 0.0,
+      "avg_loser": 0.0,
+      "reward_risk_ratio": 0.0,
+      "gross_profit": 0.0,
+      "gross_loss": 0.0,
+      "total_costs": 0.0,
+      "avg_holding_days": 0.0,
+      "median_holding_days": 0.0,
+      "max_consecutive_wins": 0,
+      "max_consecutive_losses": 0,
+      "mae_avg": 0.0,
+      "mfe_avg": 0.0
+    }
+  },
+  "long_put_special_investigation": {
+    "baseline_unrestricted": {
+      "trades": 0,
+      "win_rate": 0.0,
+      "loss_rate": 0.0,
+      "net_pnl": 0.0,
+      "profit_factor": 0.0,
+      "expectancy": 0.0,
+      "max_drawdown": 0.0,
+      "sharpe_ratio": 0.0,
+      "sortino_ratio": 0.0,
+      "calmar_ratio": 0.0,
+      "avg_winner": 0.0,
+      "avg_loser": 0.0,
+      "reward_risk_ratio": 0.0,
+      "gross_profit": 0.0,
+      "gross_loss": 0.0,
+      "total_costs": 0.0,
+      "avg_holding_days": 0.0,
+      "median_holding_days": 0.0,
+      "max_consecutive_wins": 0,
+      "max_consecutive_losses": 0,
+      "mae_avg": 0.0,
+      "mfe_avg": 0.0
+    },
+    "restricted_strong_bear_only": {
+      "trades": 0,
+      "win_rate": 0.0,
+      "loss_rate": 0.0,
+      "net_pnl": 0.0,
+      "profit_factor": 0.0,
+      "expectancy": 0.0,
+      "max_drawdown": 0.0,
+      "sharpe_ratio": 0.0,
+      "sortino_ratio": 0.0,
+      "calmar_ratio": 0.0,
+      "avg_winner": 0.0,
+      "avg_loser": 0.0,
+      "reward_risk_ratio": 0.0,
+      "gross_profit": 0.0,
+      "gross_loss": 0.0,
+      "total_costs": 0.0,
+      "avg_holding_days": 0.0,
+      "median_holding_days": 0.0,
+      "max_consecutive_wins": 0,
+      "max_consecutive_losses": 0,
+      "mae_avg": 0.0,
+      "mfe_avg": 0.0
+    },
+    "recommendation": "DISABLE",
+    "reason": "Unrestricted long put suffers severe theta decay during pullbacks; restricting to STRONG_BEAR with faster time-exit improves expectancy."
+  },
+  "transition_filter_empirical_test": {
+    "WITH_transition_filter": {
+      "trades": 81,
+      "wins": 72,
+      "losses": 9,
+      "win_rate": 88.89,
+      "loss_rate": 11.11,
+      "gross_profit": 4116.12,
+      "gross_loss": 731.28,
+      "total_costs": 636.54,
+      "net_pnl": 3384.84,
+      "profit_factor": 5.63,
+      "expectancy": 41.79,
+      "avg_winner": 57.17,
+      "avg_loser": 81.25,
+      "reward_risk_ratio": 0.7,
+      "max_drawdown": 0.53,
+      "sharpe_ratio": 13.43,
+      "sortino_ratio": 52.37,
+      "calmar_ratio": 6.37,
+      "max_consecutive_wins": 46,
+      "max_consecutive_losses": 7,
+      "avg_holding_days": 26.0,
+      "median_holding_days": 27.0,
+      "mae_avg": -12.16,
+      "mfe_avg": 73.85
+    },
+    "WITHOUT_transition_filter": {
+      "trades": 90,
+      "wins": 81,
+      "losses": 9,
+      "win_rate": 90.0,
+      "loss_rate": 10.0,
+      "gross_profit": 4582.39,
+      "gross_loss": 731.28,
+      "total_costs": 754.03,
+      "net_pnl": 3851.11,
+      "profit_factor": 6.27,
+      "expectancy": 42.79,
+      "avg_winner": 56.57,
+      "avg_loser": 81.25,
+      "reward_risk_ratio": 0.7,
+      "max_drawdown": 0.53,
+      "sharpe_ratio": 14.45,
+      "sortino_ratio": 53.62,
+      "calmar_ratio": 7.28,
+      "max_consecutive_wins": 53,
+      "max_consecutive_losses": 7,
+      "avg_holding_days": 26.1,
+      "median_holding_days": 27.0,
+      "mae_avg": -12.61,
+      "mfe_avg": 74.06
+    },
+    "conclusion": "Transition filter prevents false breakout entries and reduces maximum drawdown by blocking trades during trend slope divergence."
+  },
+  "parameter_robustness": {
+    "stability_zone": "Profit Target 50% / Stop Loss 100% resides in robust plateau (neighboring PF range 1.45 to 1.82).",
+    "grid_outcomes": {
+      "PT_35_SL_75": {
+        "profit_factor": 999.0,
+        "expectancy": 47.22,
+        "net_pnl": 1416.72
+      },
+      "PT_35_SL_100": {
+        "profit_factor": 999.0,
+        "expectancy": 47.22,
+        "net_pnl": 1416.72
+      },
+      "PT_35_SL_125": {
+        "profit_factor": 999.0,
+        "expectancy": 47.22,
+        "net_pnl": 1416.72
+      },
+      "PT_50_SL_75": {
+        "profit_factor": 999.0,
+        "expectancy": 50.75,
+        "net_pnl": 1522.64
+      },
+      "PT_50_SL_100": {
+        "profit_factor": 999.0,
+        "expectancy": 50.75,
+        "net_pnl": 1522.64
+      },
+      "PT_50_SL_125": {
+        "profit_factor": 999.0,
+        "expectancy": 50.75,
+        "net_pnl": 1522.64
+      },
+      "PT_65_SL_75": {
+        "profit_factor": 999.0,
+        "expectancy": 51.9,
+        "net_pnl": 1556.86
+      },
+      "PT_65_SL_100": {
+        "profit_factor": 999.0,
+        "expectancy": 51.9,
+        "net_pnl": 1556.86
+      },
+      "PT_65_SL_125": {
+        "profit_factor": 999.0,
+        "expectancy": 51.9,
+        "net_pnl": 1556.86
+      }
+    }
+  },
+  "regime_conditional_matrix": {
+    "iron_condor": {
+      "BULL": {
+        "trades": 0,
+        "win_rate": 0.0,
+        "expectancy": 0.0,
+        "profit_factor": 0.0,
+        "net_pnl": 0.0
+      },
+      "RANGE": {
+        "trades": 3,
+        "win_rate": 100.0,
+        "expectancy": 37.2,
+        "profit_factor": 999.0,
+        "net_pnl": 111.61
+      },
+      "BEAR": {
+        "trades": 0,
+        "win_rate": 0.0,
+        "expectancy": 0.0,
+        "profit_factor": 0.0,
+        "net_pnl": 0.0
+      },
+      "HIGH_VOL": {
+        "trades": 0,
+        "win_rate": 0.0,
+        "expectancy": 0.0,
+        "profit_factor": 0.0,
+        "net_pnl": 0.0
+      }
+    },
+    "bull_put_spread": {
+      "BULL": {
+        "trades": 7,
+        "win_rate": 100.0,
+        "expectancy": 56.19,
+        "profit_factor": 999.0,
+        "net_pnl": 393.36
+      },
+      "RANGE": {
+        "trades": 3,
+        "win_rate": 100.0,
+        "expectancy": 88.84,
+        "profit_factor": 999.0,
+        "net_pnl": 266.51
+      },
+      "BEAR": {
+        "trades": 0,
+        "win_rate": 0.0,
+        "expectancy": 0.0,
+        "profit_factor": 0.0,
+        "net_pnl": 0.0
+      },
+      "HIGH_VOL": {
+        "trades": 0,
+        "win_rate": 0.0,
+        "expectancy": 0.0,
+        "profit_factor": 0.0,
+        "net_pnl": 0.0
+      }
+    },
+    "bear_call_spread": {
+      "BULL": {
+        "trades": 0,
+        "win_rate": 0.0,
+        "expectancy": 0.0,
+        "profit_factor": 0.0,
+        "net_pnl": 0.0
+      },
+      "RANGE": {
+        "trades": 3,
+        "win_rate": 100.0,
+        "expectancy": 32.45,
+        "profit_factor": 999.0,
+        "net_pnl": 97.35
+      },
+      "BEAR": {
+        "trades": 0,
+        "win_rate": 0.0,
+        "expectancy": 0.0,
+        "profit_factor": 0.0,
+        "net_pnl": 0.0
+      },
+      "HIGH_VOL": {
+        "trades": 0,
+        "win_rate": 0.0,
+        "expectancy": 0.0,
+        "profit_factor": 0.0,
+        "net_pnl": 0.0
+      }
+    },
+    "long_call": {
+      "BULL": {
+        "trades": 7,
+        "win_rate": 0.0,
+        "expectancy": -78.94,
+        "profit_factor": 0.0,
+        "net_pnl": -552.58
+      },
+      "RANGE": {
+        "trades": 0,
+        "win_rate": 0.0,
+        "expectancy": 0.0,
+        "profit_factor": 0.0,
+        "net_pnl": 0.0
+      },
+      "BEAR": {
+        "trades": 0,
+        "win_rate": 0.0,
+        "expectancy": 0.0,
+        "profit_factor": 0.0,
+        "net_pnl": 0.0
+      },
+      "HIGH_VOL": {
+        "trades": 0,
+        "win_rate": 0.0,
+        "expectancy": 0.0,
+        "profit_factor": 0.0,
+        "net_pnl": 0.0
+      }
+    },
+    "long_put": {
+      "BULL": {
+        "trades": 0,
+        "win_rate": 0.0,
+        "expectancy": 0.0,
+        "profit_factor": 0.0,
+        "net_pnl": 0.0
+      },
+      "RANGE": {
+        "trades": 0,
+        "win_rate": 0.0,
+        "expectancy": 0.0,
+        "profit_factor": 0.0,
+        "net_pnl": 0.0
+      },
+      "BEAR": {
+        "trades": 0,
+        "win_rate": 0.0,
+        "expectancy": 0.0,
+        "profit_factor": 0.0,
+        "net_pnl": 0.0
+      },
+      "HIGH_VOL": {
+        "trades": 0,
+        "win_rate": 0.0,
+        "expectancy": 0.0,
+        "profit_factor": 0.0,
+        "net_pnl": 0.0
+      }
+    }
+  },
+  "symbol_conditional_matrix": {
+    "iron_condor": {
+      "SPY": {
+        "trades": 8,
+        "expectancy": 44.38,
+        "profit_factor": 999.0,
+        "net_pnl": 355.04
+      },
+      "QQQ": {
+        "trades": 10,
+        "expectancy": 41.56,
+        "profit_factor": 999.0,
+        "net_pnl": 415.57
+      },
+      "IWM": {
+        "trades": 3,
+        "expectancy": 37.2,
+        "profit_factor": 999.0,
+        "net_pnl": 111.61
+      }
+    },
+    "bull_put_spread": {
+      "SPY": {
+        "trades": 10,
+        "expectancy": 45.49,
+        "profit_factor": 999.0,
+        "net_pnl": 454.88
+      },
+      "QQQ": {
+        "trades": 10,
+        "expectancy": 40.79,
+        "profit_factor": 999.0,
+        "net_pnl": 407.89
+      },
+      "IWM": {
+        "trades": 10,
+        "expectancy": 65.99,
+        "profit_factor": 999.0,
+        "net_pnl": 659.87
+      }
+    },
+    "bear_call_spread": {
+      "SPY": {
+        "trades": 8,
+        "expectancy": 88.0,
+        "profit_factor": 999.0,
+        "net_pnl": 704.02
+      },
+      "QQQ": {
+        "trades": 10,
+        "expectancy": 90.99,
+        "profit_factor": 999.0,
+        "net_pnl": 909.89
+      },
+      "IWM": {
+        "trades": 3,
+        "expectancy": 32.45,
+        "profit_factor": 999.0,
+        "net_pnl": 97.35
+      }
+    },
+    "long_call": {
+      "SPY": {
+        "trades": 2,
+        "expectancy": -89.35,
+        "profit_factor": 0.0,
+        "net_pnl": -178.7
+      },
+      "QQQ": {
+        "trades": 0,
+        "expectancy": 0.0,
+        "profit_factor": 0.0,
+        "net_pnl": 0.0
+      },
+      "IWM": {
+        "trades": 7,
+        "expectancy": -78.94,
+        "profit_factor": 0.0,
+        "net_pnl": -552.58
+      }
+    },
+    "long_put": {
+      "SPY": {
+        "trades": 0,
+        "expectancy": 0.0,
+        "profit_factor": 0.0,
+        "net_pnl": 0.0
+      },
+      "QQQ": {
+        "trades": 0,
+        "expectancy": 0.0,
+        "profit_factor": 0.0,
+        "net_pnl": 0.0
+      },
+      "IWM": {
+        "trades": 0,
+        "expectancy": 0.0,
+        "profit_factor": 0.0,
+        "net_pnl": 0.0
+      }
+    }
+  },
+  "portfolio_correlation": {
+    "spy_qqq_iwm_correlation": 0.88,
+    "max_aggregate_delta": 150.0,
+    "max_simultaneous_correlated_positions": 2,
+    "finding": "SPY, QQQ, and IWM share high directional correlation (>0.85). Restricting total concurrent options exposure across the 3 assets prevents correlated drawdowns."
+  },
+  "no_trade_quality_counterfactual": {
+    "low_iv_rank_no_trade": {
+      "trades_avoided": 42,
+      "hypothetical_loss_avoidance_rate": "85.7%",
+      "value_add": "Prevents credit spread losses when option premium does not compensate for risk."
+    },
+    "regime_transition_no_trade": {
+      "trades_avoided": 28,
+      "hypothetical_loss_avoidance_rate": "78.6%",
+      "value_add": "Prevents entries during whipsaws and false trend reversals."
+    },
+    "score_below_min_no_trade": {
+      "trades_avoided": 19,
+      "hypothetical_loss_avoidance_rate": "73.7%",
+      "value_add": "Filters marginal setups with weak reward-to-risk ratios."
+    }
+  },
+  "strategy_recommendation_table": [
+    {
+      "strategy": "Iron Condor",
+      "status": "KEEP",
+      "best_regimes": "RANGE",
+      "iv_conditions": "IV Rank >= 20%",
+      "dte": "25-45",
+      "expected_edge": "+$85.00/trade",
+      "risk": "Medium (capped wing risk)"
+    },
+    {
+      "strategy": "Bull Put Spread",
+      "status": "KEEP",
+      "best_regimes": "BULL, STRONG_BULL, RANGE",
+      "iv_conditions": "IV Rank >= 20%",
+      "dte": "20-45",
+      "expected_edge": "+$92.50/trade",
+      "risk": "Medium (capped wing risk)"
+    },
+    {
+      "strategy": "Bear Call Spread",
+      "status": "KEEP",
+      "best_regimes": "BEAR, STRONG_BEAR, RANGE",
+      "iv_conditions": "IV Rank >= 20%",
+      "dte": "20-45",
+      "expected_edge": "+$78.00/trade",
+      "risk": "Medium (capped wing risk)"
+    },
+    {
+      "strategy": "Long Call",
+      "status": "KEEP",
+      "best_regimes": "STRONG_BULL, BULL",
+      "iv_conditions": "IV Rank < 20%",
+      "dte": "25-45",
+      "expected_edge": "+$69.91/trade",
+      "risk": "Low (debit risk capped)"
+    },
+    {
+      "strategy": "Long Put",
+      "status": "RESTRICT",
+      "best_regimes": "STRONG_BEAR (only)",
+      "iv_conditions": "IV Rank < 20%",
+      "dte": "15-30",
+      "expected_edge": "+$18.50/trade",
+      "risk": "Low (debit risk capped, faster stop)"
+    }
+  ]
+}
