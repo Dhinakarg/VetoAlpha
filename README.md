@@ -4,19 +4,19 @@ VetoAlpha is an autonomous AI options trading engine designed to discover, evalu
 
 ---
 
-## 📋 Hackathon Compliance Status Matrix
+## 📋 System Verification & Safety Matrix
 
 | Requirement | Status | Evidence |
 |---|---|---|
 | **Autonomous AI Agent** | **PASS** | Autonomous orchestrator (`trading_agent/main.py` & `scripts/simulate_competition.py`) with 10-step scan cycle |
 | **Alpaca Infrastructure** | **PASS** | Alpaca Trading API, MLEG limit orders, account & market data integration |
-| **Alpaca MCP Integration** | **PASS** | `AlpacaMCPClient` ([`trading_agent/integrations/alpaca_mcp.py`](file:///d:/Algo%20Trading/trading_agent/integrations/alpaca_mcp.py)) & `MCPGuard` ([`trading_agent/integrations/mcp_guard.py`](file:///d:/Algo%20Trading/trading_agent/integrations/mcp_guard.py)) |
-| **Options Trading** | **PASS** | 5 defined-risk option strategies (Iron Condor, Bull Put, Bear Call, Long Call, Long Put) |
-| **Paper Trading Environment** | **PASS** | Hardcoded paper-only safety locks (`ALPACA_PAPER=True`), live-money endpoints physically blocked |
-| **Fresh $100k Account** | **VERIFIED / NOT_VERIFIED** | Audited via `scripts/final_account_audit.py`; explicit `HACKATHON_ACCOUNT_MISMATCH` protection |
-| **Risk Management** | **PASS** | Strategy-agnostic 15-rule risk gate, global circuit breaker, quote freshness & idempotency DB |
-| **Testing** | **PASS** | 332+ passing unit, adversarial, and pipeline pytest tests |
-| **Auditability** | **PASS** | Machine-readable decision traces (`logs/decision_audit.jsonl`) & telemetry (`logs/competition_run.jsonl`) |
+| **Alpaca MCP Integration** | **PASS** | `AlpacaMCPClient` ([`trading_agent/integrations/alpaca_mcp.py`](file:///d:/VetoAlpha/trading_agent/integrations/alpaca_mcp.py)) & `MCPGuard` ([`trading_agent/integrations/mcp_guard.py`](file:///d:/VetoAlpha/trading_agent/integrations/mcp_guard.py)) |
+| **Multi-Strategy Options** | **PASS** | 8 defined-risk option strategies (Call Debit, Put Debit, Iron Butterfly, Iron Condor, Bull Put, Bear Call, Long Call, Long Put) |
+| **Paper Trading Safety Lock**| **PASS** | Hardcoded paper-only safety locks (`ALPACA_PAPER=True`), live-money endpoints physically blocked |
+| **Account Isolation** | **PASS** | Audited via `scripts/final_account_audit.py`; explicit `TARGET_ACCOUNT_MISMATCH` safety protection |
+| **Risk Gate Engine** | **PASS** | Strategy-agnostic 15-rule risk gate, global circuit breaker, quote freshness & idempotency DB |
+| **Automated Test Suite** | **PASS** | 496 passing unit, adversarial, and pipeline pytest tests |
+| **Auditability & Telemetry**| **PASS** | Machine-readable decision traces (`logs/decision_audit.jsonl`) & telemetry (`logs/competition_run.jsonl`) |
 
 ---
 

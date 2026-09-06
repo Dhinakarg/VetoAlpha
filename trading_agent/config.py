@@ -55,12 +55,14 @@ class Settings:
         self.iv_history_db_path: str = os.getenv(
             "IV_HISTORY_DB_PATH", "logs/iv_history.db"
         )
-        self.hackathon_mode: bool = os.getenv("HACKATHON_MODE", "false").lower() in (
+        self.target_account_isolation_mode: bool = os.getenv("TARGET_ACCOUNT_ISOLATION_MODE", os.getenv("HACKATHON_MODE", "false")).lower() in (
             "true",
             "1",
             "yes",
         )
-        self.hackathon_account_id: Optional[str] = os.getenv("HACKATHON_ACCOUNT_ID", None)
+        self.target_account_id: Optional[str] = os.getenv("TARGET_ACCOUNT_ID", os.getenv("HACKATHON_ACCOUNT_ID", None))
+        self.hackathon_mode: bool = self.target_account_isolation_mode
+        self.hackathon_account_id: Optional[str] = self.target_account_id
 
         # Options Universe & Invalidation Config
         self.iv_refresh_delta: float = float(os.getenv("IV_REFRESH_DELTA", "15.0"))

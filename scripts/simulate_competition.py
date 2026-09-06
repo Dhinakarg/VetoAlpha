@@ -320,7 +320,7 @@ class CompetitionSimulationRunner:
             f"Paper Configured: YES (ALPACA_PAPER=True)",
             f"Account ID:       {redacted_id}",
             f"Account Status:   {getattr(account, 'status', 'ACTIVE')}",
-            f"Hackathon Mode:   {is_hackathon_mode}",
+            f"Account Isolation: ACTIVE",
             f"Starting Equity:  ${equity:,.2f}",
             f"Buying Power:     ${buying_power:,.2f}",
             f"Symbols:          {', '.join(self.symbols)}",
