@@ -1,5 +1,6 @@
 # VetoAlpha: Institutional-Grade Autonomous Options Trading Engine 🦅📉📈
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![Tests: 496 Passed](https://img.shields.io/badge/tests-496%20passed%20(100%25)-brightgreen.svg)]()
 [![Broker: Alpaca Paper](https://img.shields.io/badge/broker-Alpaca%20Paper%20API-orange.svg)](https://alpaca.markets)
@@ -228,5 +229,10 @@ VetoAlpha/
 
 ---
 
+## ⚠️ Disclaimer
+This software is developed strictly for educational, research, and paper-trading evaluation purposes. It is not financial, investment, or trading advice. Algorithmic options trading involves substantial risk of loss. Past simulation results do not guarantee future performance. The authors assume no liability for financial losses incurred through the use of this software.
+
+---
+
 ## 📄 License
-This project is open-source under the MIT License. Developed for research and algorithmic paper trading.
+This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
