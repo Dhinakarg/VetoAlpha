@@ -1,4 +1,4 @@
-# Autonomous Multi-Strategy Options Agent — Hackathon Submission
+# Autonomous Multi-Strategy Options Agent — Architecture Overview
 
 ## Strategy
 The agent operates an autonomous multi-strategy options engine supporting five defined-risk strategy families:

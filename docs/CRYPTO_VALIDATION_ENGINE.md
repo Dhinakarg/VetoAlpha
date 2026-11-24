@@ -15,7 +15,7 @@ This document provides technical documentation and validation results for the **
                     ┌────────────────────┴────────────────────┐
                     │                                         │
              OPTIONS ENGINE                             CRYPTO ENGINE
-        (PRIMARY HACKATHON ENGINE)                    (VALIDATION ONLY)
+         (PRIMARY OPTIONS ENGINE)                     (VALIDATION ONLY)
                     │                                         │
             Alpaca Options API                        24/7 Crypto Data
                     │                                         │
@@ -27,7 +27,7 @@ This document provides technical documentation and validation results for the **
                     │                                         │
              Paper Trading DB                         Isolated Telemetry
                     │                                         │
-          HACKATHON SUBMISSION                         VALIDATION ONLY
+             OPTIONS ENGINE                            VALIDATION ONLY
 ```
 
 ### Strict Isolation Guarantees

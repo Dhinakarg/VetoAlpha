@@ -58,7 +58,7 @@ def summarize_crypto_performance(
     lines = [
         "=" * 65,
         "CRYPTO VALIDATION PERFORMANCE SUMMARY",
-        "⚠ ISOLATED FROM HACKATHON OPTIONS SUBMISSION",
+        "⚠ ISOLATED 24/7 CRYPTO RISK ENGINE",
         "=" * 65,
         f"Simulated Equity:       ${equity:,.2f}",
         f"Starting Equity:        $100,000.00",

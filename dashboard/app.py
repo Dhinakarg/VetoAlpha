@@ -509,7 +509,7 @@ def render_dashboard():
 
     # 9. CRYPTO VALIDATION ENGINE (24/7 MARKET RESEARCH)
     st.subheader("9. 🪙 Crypto Validation Engine (24/7 Research Subsystem)")
-    st.warning("⚠ CRYPTO VALIDATION ONLY — NOT PART OF HACKATHON OPTIONS SUBMISSION")
+    st.warning("⚠ CRYPTO ENGINE — RUNS ON ISOLATED RISK PARAMETERS (24/7 MARKET VALIDATION)")
     st.caption("Secondary validation engine evaluating autonomous decision discipline over 24/7 crypto market data.")
 
     crypto_col1, crypto_col2, crypto_col3 = st.columns(3)

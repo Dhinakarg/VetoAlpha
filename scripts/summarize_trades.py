@@ -1,5 +1,5 @@
 """
-Hackathon Trade Summary & Agent Performance Presentation Dashboard.
+Autonomous Trade Summary & Agent Performance Analytics.
 Parses logs/agent_log.jsonl and outputs a presentation-ready ASCII performance report.
 """
 

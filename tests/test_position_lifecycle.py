@@ -141,7 +141,7 @@ def test_delta_breach_exit_signal(mock_position, test_condor):
     actions = review_open_positions(
         positions=[mock_position],
         current_quotes=neutral_quotes,
-        config={"TP_PCT_OF_MAX_CREDIT": 0.50, "SL_MULT_OF_CREDIT": 2.0, "TIME_EXIT_DTE": 7, "DELTA_BREACH_THRESHOLD": 0.30},
+        config={"TP_PCT_OF_MAX_CREDIT": 0.50, "SL_MULT_OF_CREDIT": 2.0, "TIME_EXIT_DTE": 7, "DELTA_BREACH_THRESHOLD": 0.30, "REFERENCE_DATE": "2026-08-25"},
     )
     assert len(actions) == 1
     assert actions[0].action == "close"
